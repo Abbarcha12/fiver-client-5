@@ -1,0 +1,105 @@
+.main{
+	flex-wrap: wrap;
+}
+.bit-text{
+	font-size: 27px;
+	font-weight: 400;
+}
+.table-head{
+	font-size: 11px;
+	background-color: #f6f9fc !important;
+}
+.table{
+	 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	 border-radius: 3px;
+}
+.caption{
+	border-top: none !important;
+}
+.logoTextBtn{
+	height: 110px;
+	width: 330px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 3px;
+}
+.logo{
+	margin-top: 34px;
+}
+.logo-name{
+	margin-top: 42px;
+}
+.selected{
+	margin-top: 38px;
+}
+.selected button{
+	height: 32px;
+	width: 90px;
+	border: none;
+	background-color: #95a2eb;
+	color: #e7eaf7;
+	border-radius: 7px;
+	font-size: 15px;
+}
+.button{
+	margin-top: 38px;
+}
+.button button{
+	height: 32px;
+	width: 70px;
+	border: none;
+	background-color: #5c70e1;
+	color: #e7eaf7;
+	border-radius: 7px;
+}
+@media only screen and (max-width: 1050px) {
+	.logoTextBtn{
+	height: 110px;
+	width: 300px;
+    background-color: lightblue;
+	}
+	.selected button{
+	height: 25px;
+	width: 70px;
+	margin-right: auto;
+	font-size: 14px;
+	}	
+	.button button{
+	height: 25px;
+	width: 55px;
+	font-size: 14px;
+}
+img{
+	width: 30px;
+	height: 30px;
+	}
+}
+@media only screen and (max-width: 993px) and (min-width:340px) {
+	.main-div{
+		width: 100%;
+		flex-direction: column;
+	}
+
+
+	.logoTextBtn{
+	height: 110px;
+	width: 60%;
+    background-color: lightblue;
+    margin-left: auto;
+	margin-right: auto;
+	}
+	.selected button{
+	height: 30px;
+	width: 80px;
+	margin-right: auto;
+	font-size: 15px;
+	}	
+	.button button{
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+}
+	img{
+	width: 40px;
+	height: 40px;
+	}
+}
